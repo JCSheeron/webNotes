@@ -11,6 +11,9 @@ const PORT = process.env.BACKEND_PORT;
 
 connectDb();
 
+// middleware
+app.use(express.json());
+
 app.use('/api/notes', notesRoutes);
 
 app.listen(PORT, () => {
