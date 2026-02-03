@@ -1,0 +1,13 @@
+{
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#e9dbb7",
+    "activityBarBadge.background": "#e9dbb7",
+    "activityBarBadge.foreground": "#262626",
+    "statusBar.background": "#87d4f2",
+    "statusBar.foreground": "#354157",
+    "tab.activeBorder": "#87d4f2"
+  },
+  "typescript.validate.enable": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
