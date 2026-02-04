@@ -16,6 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "@dotenvx/dotenvx": "^1.52.0",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.36.2",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
   },
