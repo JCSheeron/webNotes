@@ -14,7 +14,7 @@ const PORT = process.env.BACKEND_PORT;
 // A small production optimization: Only start to listen if the db connects
 // connectDb();
 
-// middleware
+// middleware -- Do things before sending the response
 app.use(express.json()); // parse JSON bodies. Get access to req/body
 app.use(rateLimiter); // rate limiter using upstash
 // simple custom middleware example
