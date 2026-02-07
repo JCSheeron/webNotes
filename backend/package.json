@@ -18,6 +18,7 @@
     "@dotenvx/dotenvx": "^1.52.0",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.36.2",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
   },
